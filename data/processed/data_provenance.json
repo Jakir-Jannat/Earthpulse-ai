@@ -1,0 +1,44 @@
+{
+  "source": "NASA POWER (MERRA-2) monthly, source native resolution",
+  "raw_file": {
+    "name": "POWER_Point_Monthly_20010101_20251231_024d89N_091d87E_LST.csv",
+    "sha256": "79f021a95bec99a11f9b5b40e715ea47da8789143e2c1fedc31d0b501355fa8a",
+    "size_bytes": 2673,
+    "text_lines": 35,
+    "header_lines": 9,
+    "table_header_line_number": 10
+  },
+  "metadata": {
+    "product_line": "NASA/POWER Source Native Resolution Monthly and Annual",
+    "latitude": 24.8949,
+    "longitude": 91.8687,
+    "start_date": "01/01/2001",
+    "end_date": "12/31/2025",
+    "time_standard": "LST",
+    "elevation_source": "MERRA-2",
+    "elevation_m": 103.47,
+    "grid_lat_deg": 0.5,
+    "grid_lon_deg": 0.625,
+    "declared_missing_value": -999.0,
+    "parameter_code": "T2M",
+    "parameter_description": "MERRA-2 Temperature at 2 Meters",
+    "parameter_units": "C"
+  },
+  "processing": [
+    "Header located dynamically",
+    "ANN column excluded",
+    "-999/non-numeric/implausible -> NaN with QC_FLAG",
+    "Reindexed to complete 2001-2025 x 12 month grid",
+    "Month-start dates (YYYY-MM-01)"
+  ],
+  "run_info": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "random_seed": 20260,
+    "bootstrap_replicates": 5000,
+    "raw_sha256": "79f021a95bec99a11f9b5b40e715ea47da8789143e2c1fedc31d0b501355fa8a"
+  }
+}

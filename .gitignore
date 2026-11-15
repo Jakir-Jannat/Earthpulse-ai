@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+.ipynb_checkpoints/
+# Raw NASA POWER files are kept out of public commits unless you have confirmed you may publish them.
+# To publish the bundled file, delete the next two lines.
+data/raw/*.csv
+!data/raw/.gitkeep

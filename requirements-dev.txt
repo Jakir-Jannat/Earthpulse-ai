@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest>=8.0
+pymannkendall>=1.4      # optional: independent cross-check used by one test
+kaleido>=1.0            # optional: PNG export (also needs Chrome: run `plotly_get_chrome`)

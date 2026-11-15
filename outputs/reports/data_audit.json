@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "file": {
+    "name": "POWER_Point_Monthly_20010101_20251231_024d89N_091d87E_LST.csv",
+    "sha256": "79f021a95bec99a11f9b5b40e715ea47da8789143e2c1fedc31d0b501355fa8a",
+    "size_bytes": 2673,
+    "text_lines": 35,
+    "header_lines": 9,
+    "table_header_line_number": 10
+  },
+  "metadata": {
+    "product_line": "NASA/POWER Source Native Resolution Monthly and Annual",
+    "latitude": 24.8949,
+    "longitude": 91.8687,
+    "start_date": "01/01/2001",
+    "end_date": "12/31/2025",
+    "time_standard": "LST",
+    "elevation_source": "MERRA-2",
+    "elevation_m": 103.47,
+    "grid_lat_deg": 0.5,
+    "grid_lon_deg": 0.625,
+    "declared_missing_value": -999.0,
+    "parameter_code": "T2M",
+    "parameter_description": "MERRA-2 Temperature at 2 Meters",
+    "parameter_units": "C"
+  },
+  "table": {
+    "columns": [
+      "PARAMETER",
+      "YEAR",
+      "JAN",
+      "FEB",
+      "MAR",
+      "APR",
+      "MAY",
+      "JUN",
+      "JUL",
+      "AUG",
+      "SEP",
+      "OCT",
+      "NOV",
+      "DEC",
+      "ANN"
+    ],
+    "n_rows": 25,
+    "years_found": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "parameters_in_rows": [
+      "T2M"
+    ]
+  },
+  "coverage": {
+    "expected_years": 25,
+    "years_found": 25,
+    "expected_monthly_observations": 300,
+    "valid_monthly_observations": 300,
+    "missing_or_invalid_monthly_observations": 0,
+    "duplicate_years": [],
+    "missing_years": [],
+    "coordinates_match_expected": true
+  },
+  "cell_checks": {
+    "sentinel_-999": [],
+    "nonnumeric": [],
+    "empty": [],
+    "implausible": []
+  },
+  "ann_column_check": {
+    "used_in_analysis": false,
+    "max_abs_diff_vs_simple_mean": 0.03500000000000014,
+    "max_abs_diff_vs_day_weighted_mean": 0.004958904109589213,
+    "note": "ANN is NASA's annual summary; used only as a consistency check."
+  },
+  "issues": []
+}

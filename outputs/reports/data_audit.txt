@@ -1,0 +1,22 @@
+EARTHPULSE AI - DATA AUDIT REPORT
+====================================
+Status            : PASS
+File              : POWER_Point_Monthly_20010101_20251231_024d89N_091d87E_LST.csv  (2673 bytes)
+SHA-256           : 79f021a95bec99a11f9b5b40e715ea47da8789143e2c1fedc31d0b501355fa8a
+Table header at   : line 10 (9 metadata lines above)
+Product           : NASA/POWER Source Native Resolution Monthly and Annual
+Parameter         : T2M - MERRA-2 Temperature at 2 Meters (C)
+Coordinate        : lat 24.8949, lon 91.8687 (single grid-cell estimate)
+Source resolution : 0.5 x 0.625 degree (lat x lon), MERRA-2
+Elevation (model) : 103.47 m
+Period / time     : 01/01/2001 to 12/31/2025 (LST)
+Table             : 25 rows; columns PARAMETER, YEAR, JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC, ANN
+Years found       : 25 of 25 expected
+Monthly obs       : 300 valid of 300 expected
+Duplicates/missing: duplicate years none; missing years none
+-999 markers      : 0
+Non-numeric       : 0
+Implausible       : 0
+ANN column        : NOT used as data. Max |ANN - mean of 12 months| = 0.035 degC (simple mean), 0.005 degC (day-weighted).
+
+Issues: none
